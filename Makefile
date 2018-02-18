@@ -54,8 +54,8 @@ all:
 	fi
 
 install: all
-	cd bitcoin;     \
-	  make install; \
+	cd bitcoin;   \
+	make install; \
 
 clean:
 	rm -Rf bitcoin
